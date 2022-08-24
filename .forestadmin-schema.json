@@ -175,6 +175,21 @@
         "value": null
       }]
     }, {
+      "field": "imageAltText",
+      "type": "String",
+      "defaultValue": null,
+      "enums": null,
+      "integration": null,
+      "isFilterable": true,
+      "isPrimaryKey": false,
+      "isReadOnly": false,
+      "isRequired": false,
+      "isSortable": true,
+      "isVirtual": false,
+      "reference": null,
+      "inverseOf": null,
+      "validations": []
+    }, {
       "field": "name",
       "type": "String",
       "defaultValue": null,
@@ -193,6 +208,21 @@
         "type": "is present",
         "value": null
       }]
+    }, {
+      "field": "published",
+      "type": "Dateonly",
+      "defaultValue": null,
+      "enums": null,
+      "integration": null,
+      "isFilterable": true,
+      "isPrimaryKey": false,
+      "isReadOnly": false,
+      "isRequired": false,
+      "isSortable": true,
+      "isVirtual": false,
+      "reference": null,
+      "inverseOf": null,
+      "validations": []
     }, {
       "field": "summary",
       "type": "String",
