@@ -17,8 +17,12 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+    linkAltText: {
+      type: DataTypes.STRING,
+    },
   }, {
     tableName: 'sociallinks',
+    underscored: true,
     timestamps: false,
     schema: process.env.DATABASE_SCHEMA,
   });
